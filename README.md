@@ -106,15 +106,18 @@ Your task is to create a RESTful quiz application with full of greenfox question
 
 Please define it with your own words. We are expecting at least 3 distinct ideas that you write here:
 
+a.) If you need to implement muliptle interfaces or you need to extend another Java class you have to use abstract class.
+b.) If you declare variables in interface the will be final, hower and abstract class can contain not final variables as well
+c.) An abstract class’s purpose is to provide an appropriate superclass from which other classes can inherit and thus share a common design.
 
 ### Analyzing URL
 Please name the parts of the URL below.
 [<img src="assets/URLanalysis.png" alt="parts of URL" />](assets/URLanalysis.png?raw=true)
 
-1:  
-2:  
-3:  
-4:  
-5:  
-6:  
-7:  
+1:  The protocol. if there is an "s" at the end of it it means secured. if it is not http or https it can be for example ftp as well
+2:  subdomain (under the main domain)
+3:  domain name - the "uk" part of it is the top domain
+4:  the port 
+5:  the path (pointing to a location or file on the webserver)
+6:  the "?" is the beginning of the parameters. If there are more parameters, they are seperated with "&"
+7:  the name of the parameter is before the "=" mark, the value of the parameter is after it.
