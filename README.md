@@ -106,8 +106,10 @@ Your task is to create a RESTful quiz application with full of greenfox question
 
 Please define it with your own words. We are expecting at least 3 distinct ideas that you write here:
 
-a.) If you need to implement muliptle interfaces or you need to extend another Java class you have to use abstract class.
-b.) If you declare variables in interface the will be final, hower and abstract class can contain not final variables as well
+You should (have to) use abstract class:
+a.) If you need to implement muliptle interfaces,
+b.) If you need to extend another Java class you have to use abstract class,
+b.) If you declare variables in interface they will be final, hower and abstract class can contain not final variables as well,
 c.) An abstract class’s purpose is to provide an appropriate superclass from which other classes can inherit and thus share a common design.
 
 ### Analyzing URL
