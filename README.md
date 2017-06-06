@@ -114,10 +114,10 @@ c.) An abstract class’s purpose is to provide an appropriate superclass from w
 Please name the parts of the URL below.
 [<img src="assets/URLanalysis.png" alt="parts of URL" />](assets/URLanalysis.png?raw=true)
 
-1:  The protocol. if there is an "s" at the end of it it means secured. if it is not http or https it can be for example ftp as well
+1:  The protocol (Hypertext Transfer Protocol Secure in this case). If there is an "s" (Hypertext Transfer Protocol Secure) at the end of it it means secured. if it is not http or https it can be for example ftp (File Transfer Protocol) as well
 2:  subdomain (under the main domain)
 3:  domain name - the "uk" part of it is the top domain
 4:  the port 
 5:  the path (pointing to a location or file on the webserver)
 6:  the "?" is the beginning of the parameters. If there are more parameters, they are seperated with "&"
-7:  the name of the parameter is before the "=" mark, the value of the parameter is after it.
+7:  the name of the parameter is before the "=" mark, the value of the parameter (which belongs to the name) is after it.
