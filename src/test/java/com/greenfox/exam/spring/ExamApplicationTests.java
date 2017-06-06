@@ -1,5 +1,10 @@
 package com.greenfox.exam.spring;
 
+import static org.hamcrest.core.Is.is;
+import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
+import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.content;
+import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
+import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 import static org.springframework.test.web.servlet.setup.MockMvcBuilders.webAppContextSetup;
 
 import java.nio.charset.Charset;
@@ -37,6 +42,10 @@ public class ExamApplicationTests {
   }
 
   @Test
-  public void contextLoads() {
+  public void getQuestions() throws Exception {
+    mockMvc.perform(get("/questions"))
+            .andExpect(status().isOk())
+            .andExpect(content().contentType(MediaType.APPLICATION_JSON_UTF8))
+            .andExpect(jsonPath("$.['id:']", is(1)));
   }
 }

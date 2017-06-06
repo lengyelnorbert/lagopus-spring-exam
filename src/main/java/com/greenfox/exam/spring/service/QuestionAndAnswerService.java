@@ -124,7 +124,7 @@ public class QuestionAndAnswerService {
     String urlParameters = "";
 
     try {
-      URL url = new URL("https://springexamserver.herokuapp.com/projects/className");
+      URL url = new URL("https://springexamserver.herokuapp.com/projects/eagles");
       connection = (HttpURLConnection) url.openConnection();
       connection.setRequestMethod("POST");
       connection.setRequestProperty("Content-Type",
